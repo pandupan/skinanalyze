@@ -1,65 +1,57 @@
-# SkinAnalyze 🧴
+# 🧬 SkinAnalyze — AI-Powered Skin Analysis
 
-> **Aplikasi analisis kulit berbasis AI — Landing page modern dengan Next.js**
+Aplikasi **analisis kulit berbasis Artificial Intelligence (AI)** yang memungkinkan pengguna mendeteksi kondisi kulit, mendapatkan rekomendasi perawatan, dan memantau kesehatan kulit secara digital.
 
-**SkinAnalyze** adalah aplikasi web modern yang dibangun dengan Next.js untuk menyediakan layanan **analisis kondisi kulit** menggunakan kecerdasan buatan. Proyek ini merupakan landing page awal yang menampilkan informasi tentang solusi analisis kulit berbasis AI, dengan desain yang responsif dan modern.
+> ⚠️ Saat ini dalam tahap **scaffolding/awal pengembangan** — struktur Next.js App Router sudah siap untuk pengembangan fitur.
 
-> **Catatan:** Proyek ini masih dalam tahap awal pengembangan.
+## 🎯 Visi Fitur
 
----
-
-## ✨ Fitur Utama
-
-- **Landing Page Modern** — Tampilan profesional dengan desain bersih
-- **Responsive Design** — Optimal di semua ukuran layar
-- **Dark Mode Support** — Tampilan siap dark mode dengan Tailwind CSS
+- **Deteksi Masalah Kulit** — Unggah foto untuk dianalisis oleh model AI
+- **Klasifikasi Kondisi** — Jerawat, flek hitam, kemerahan, tekstur, dll.
+- **Rekomendasi Perawatan** — Saran produk & rutinitas berdasarkan hasil
+- **Progress Tracker** — Pantau perkembangan kulit dari waktu ke waktu
+- **Tampilan Modern** — UI bersih, responsif, mobile-friendly
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 15 (App Router)
-- **Bahasa:** TypeScript
-- **Styling:** Tailwind CSS 3
-- **Font:** Geist (Vercel)
+| Kategori | Teknologi |
+|----------|-----------|
+| **Framework** | Next.js (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **Package Manager** | npm |
 
----
+## 📁 Struktur Saat Ini
 
-## 🚀 Cara Install & Jalankan
+```
+app/
+├── page.tsx              # Root page (awaiting development)
+├── layout.tsx            # Root layout
+├── globals.css           # Global styles
+└── fonts/                # Geist font family
+    ├── GeistVF.woff
+    └── GeistMonoVF.woff
+
+public/                   # Static assets
+├── file.svg
+├── globe.svg
+├── window.svg
+├── next.svg
+└── vercel.svg
+```
+
+## 🚀 Cara Menjalankan
 
 ```bash
-# Clone repositori
-git clone https://github.com/pandupan/skinanalyze.git
-cd skinanalyze
-
-# Install dependencies
 npm install
-
-# Jalankan development server
 npm run dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser.
-
----
-
-## 📁 Struktur Folder
-
-```
-skinanalyze/
-├── app/
-│   ├── page.tsx          # Halaman utama
-│   ├── layout.tsx        # Layout root
-│   ├── globals.css       # Global styles
-│   └── fonts/            # Font lokal (Geist)
-├── public/               # Aset statis
-├── next.config.ts
-├── tailwind.config.ts
-├── tsconfig.json
-└── package.json
-```
+Buka [http://localhost:3000](http://localhost:3000).
 
 ## 📄 Lisensi
 
-**MIT License**
+MIT License
 
 ---
 
