@@ -1,33 +1,65 @@
-# 🧬 SkinAnalyze
+# SkinAnalyze 🧴
 
-Aplikasi **analisis dan deteksi masalah kulit** berbasis Artificial Intelligence (AI). Dibangun dengan Next.js untuk memberikan pengalaman yang cepat, responsif, dan modern.
+> **Aplikasi analisis kulit berbasis AI — Landing page modern dengan Next.js**
 
-## ✨ Fitur
+**SkinAnalyze** adalah aplikasi web modern yang dibangun dengan Next.js untuk menyediakan layanan **analisis kondisi kulit** menggunakan kecerdasan buatan. Proyek ini merupakan landing page awal yang menampilkan informasi tentang solusi analisis kulit berbasis AI, dengan desain yang responsif dan modern.
 
-- **Deteksi Masalah Kulit** — Unggah foto kulit untuk dianalisis oleh model AI
-- **Informasi Perawatan** — Rekomendasi perawatan berdasarkan hasil deteksi
-- **Tampilan Modern** — UI bersih dengan Tailwind CSS
-- **Responsif** — Bisa diakses dari desktop maupun mobile
+> **Catatan:** Proyek ini masih dalam tahap awal pengembangan.
+
+---
+
+## ✨ Fitur Utama
+
+- **Landing Page Modern** — Tampilan profesional dengan desain bersih
+- **Responsive Design** — Optimal di semua ukuran layar
+- **Dark Mode Support** — Tampilan siap dark mode dengan Tailwind CSS
 
 ## 🛠️ Tech Stack
 
-- **Next.js** (App Router) — React framework
-- **TypeScript** — Type safety
-- **Tailwind CSS** — Styling utility-first
-- **shadcn/ui** — UI components
+- **Framework:** Next.js 15 (App Router)
+- **Bahasa:** TypeScript
+- **Styling:** Tailwind CSS 3
+- **Font:** Geist (Vercel)
 
-## 🚀 Cara Menjalankan
+---
+
+## 🚀 Cara Install & Jalankan
 
 ```bash
+# Clone repositori
+git clone https://github.com/pandupan/skinanalyze.git
+cd skinanalyze
+
+# Install dependencies
 npm install
+
+# Jalankan development server
 npm run dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000).
+Buka [http://localhost:3000](http://localhost:3000) di browser.
+
+---
+
+## 📁 Struktur Folder
+
+```
+skinanalyze/
+├── app/
+│   ├── page.tsx          # Halaman utama
+│   ├── layout.tsx        # Layout root
+│   ├── globals.css       # Global styles
+│   └── fonts/            # Font lokal (Geist)
+├── public/               # Aset statis
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
+```
 
 ## 📄 Lisensi
 
-MIT License
+**MIT License**
 
 ---
 
